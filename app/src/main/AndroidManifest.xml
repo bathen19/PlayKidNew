@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.playkidSecond">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PlayKid">
+        <activity
+            android:name="com.example.playkidSecond.RequestHistory"
+            android:exported="false" />
+        <activity
+            android:name="com.example.playkidSecond.AcceptRequestMoney"
+            android:exported="false" />
+        <activity
+            android:name="com.example.playkidSecond.ShareMoneyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.playkidSecond.QrCodeScannerActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".MainActivity" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".SmsAuthenticationActivity" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name="com.example.playkidSecond.SavingOperations"
+            android:exported="false" />
+        <activity
+            android:name="com.example.playkidSecond.PaymentPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.playkidSecond.RequestMoney"
+            android:exported="false" />
+        <activity
+            android:name="com.example.playkidSecond.CreateNewSaving"
+            android:exported="false" />
+        <activity
+            android:name="com.example.playkidSecond.MySaving"
+            android:exported="false" />
+        <activity
+            android:name="com.example.playkidSecond.SmsAuthenticationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.playkidSecond.LoginPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.playkidSecond.HomePageActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareMoneyActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnGoHome"
+        android:layout_width="50dp"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_home"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter number to share"/>
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:hint="@string/enter_child_phone" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description of child" />
+
+    <EditText
+        android:id="@+id/txtDescriptionChild"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="enter description of child" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dectription of parent" />
+
+    <EditText
+        android:id="@+id/txtDescriptionParent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:hint="enter description of parent" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add kid"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/purple_500"
+        android:text="Your children:" />
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>
+
+</LinearLayout>

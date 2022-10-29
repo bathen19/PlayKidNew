@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/background"
+    tools:context=".HomePageActivity">
+
+    <Button
+        android:id="@+id/btnGoHome"
+        android:layout_width="50dp"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_home"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/logo"
+        android:padding="10dp"
+        ></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:id="@+id/btnCreateNewSaving"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/create_new_saving"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="My savings:" />
+
+        <ListView
+            android:id="@+id/lvSavings"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+    </LinearLayout>
+</LinearLayout>
+

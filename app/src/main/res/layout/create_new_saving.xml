@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/background"
+    tools:context=".HomePageActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/logo"
+        android:padding="10dp"
+        ></ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.5"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/txtSavingName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:hint="@string/saving_name"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/txtSavingGoal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:hint="@string/Saving_Goal"
+                android:inputType="number"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btnConfirmation"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:text="@string/confirmation"></Button>
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
+

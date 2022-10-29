@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "37713803256",
+    "project_id": "playkid-c55a9",
+    "storage_bucket": "playkid-c55a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37713803256:android:0943ec760b2efdecce480d",
+        "android_client_info": {
+          "package_name": "com.udisapp.playkidbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37713803256-c1bchi15ucvffhoqc3goej8u4ec4pu5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeJArd6bKoHbnUD0oNgyLafxiy1-PRvcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37713803256-c1bchi15ucvffhoqc3goej8u4ec4pu5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
